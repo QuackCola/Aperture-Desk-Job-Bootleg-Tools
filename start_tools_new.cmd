@@ -1,6 +1,6 @@
 @echo off
 setlocal
-
+cls
 
 if [%ARGUMENTS%] == [] (
 	set arguments=dev_mode
@@ -16,11 +16,9 @@ if [%ARGUMENTS%] == [] (
 	if ERRORLEVEL 4 set arguments=-noassert -dev -allowdebug -vconsole -toconsole -sw -720 -tools -nocustomermachine 
 	)
 
-
 if [%ARGUMENTS%] == [tools] (
 goto :stock_exe
 )
-
 
 :stock_exe
 echo Stock exe
