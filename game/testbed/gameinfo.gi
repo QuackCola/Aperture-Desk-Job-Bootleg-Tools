@@ -13,9 +13,9 @@
 	{
 		SearchPaths
 		{
+			Game				steampal
 			Game                testbed
 			Game				core
-			Game				steampal
 			
 		}
 	}
