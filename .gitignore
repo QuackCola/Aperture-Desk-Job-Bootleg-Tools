@@ -16,6 +16,7 @@ game/core/textures
 game/_toolsettings
 game/core/vgui
 game/core/shaders
+game/steampal/_vrad3
 game/steampal/_bakeresourcecache
 game/steampal/bin
 game/steampal/cfg
