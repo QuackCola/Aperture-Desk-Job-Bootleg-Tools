@@ -23,7 +23,6 @@ echo.
 TASKKILL /f /im "deskjob.exe" >NUL 2>&1
 
 :: Delete generated data & other files that didnt come with the base game from steam.
-
 CALL :DEL_DIR  ".\content\_toolsautosave"
 CALL :DEL_DIR  ".\content\testbed\_bakeresourcecache"
 CALL :DEL_DIR  ".\game\_toolsettings"
@@ -33,13 +32,11 @@ CALL :DEL_FILE ".\game\steampal\tools_thumbnail_cache.bin"
 CALL :DEL_FILE ".\game\bin\win64\*.mdmp"
 
 :: Delete generated ".\game\testbed" folders & files.
-
 CALL :DEL_DIR  ".\game\testbed\_bakeresourcecache"
 CALL :DEL_FILE ".\game\testbed\tools_asset_info.bin"
 CALL :DEL_FILE ".\game\testbed\tools_thumbnail_cache.bin"
 
 :: Delete generated ".\game\testbed_addons\addon_test" folders & files.
-
 CALL :DEL_DIR  ".\game\testbed_addons\addon_test\_bakeresourcecache"
 CALL :DEL_DIR  ".\game\testbed_addons\addon_test\maps"
 CALL :DEL_DIR  ".\game\testbed_addons\addon_test\materials"
