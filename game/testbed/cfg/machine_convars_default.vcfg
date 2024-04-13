@@ -1,0 +1,9 @@
+"config"
+{
+	"convars"
+	{
+		"sv_noclipspeed" "20"
+		"sv_noclipfriction" "8"
+		"fov_desired" "52.859921"
+	}
+}

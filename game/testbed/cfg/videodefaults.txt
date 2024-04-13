@@ -1,0 +1,7 @@
+"video.cfg"
+{
+	"setting.defaultres"		"-1"
+	"setting.defaultresheight"		"-1"
+	"setting.mat_vsync"		"1"
+	"setting.msaa_samples"	"4"
+}

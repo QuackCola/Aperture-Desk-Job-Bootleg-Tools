@@ -1,0 +1,17 @@
+"video.cfg"
+{
+	"setting.defaultres"		"1280"
+	"setting.defaultresheight"		"720"
+	"setting.mat_vsync"		"1"
+	"setting.msaa_samples"		"4"
+	"Version"		"2"
+	"VendorID"		"4318"
+	"DeviceID"		"9350"
+	"setting.nowindowborder"		"0"
+	"setting.fullscreen_min_on_focus_loss"		"1"
+	"setting.fullscreen"		"0"
+	"setting.high_dpi"		"0"
+	"setting.coop_fullscreen"		"0"
+	"setting.refreshrate_numerator"		"0"
+	"setting.refreshrate_denominator"		"0"
+}
