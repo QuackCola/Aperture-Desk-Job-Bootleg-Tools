@@ -13,6 +13,7 @@ game/core/sounds
 game/core/soundstacks
 game/core/surfaceproperties
 game/core/textures
+game/_toolsettings
 game/core/vgui
 game/core/shaders
 game/steampal/_bakeresourcecache
