@@ -15,8 +15,10 @@ game/core/vgui
 game/core/shaders
 game/steampal/bin
 game/steampal/cfg
+game/steampal/lighting
 game/steampal/maps
 game/steampal/panorama
+game/steampal/resource/localization
 game/steampal/animgraphs
 game/steampal/aperture
 game/steampal/cameras
