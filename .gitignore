@@ -12,6 +12,7 @@ game/core/soundstacks
 game/core/surfaceproperties
 game/core/textures
 game/core/vgui
+game/core/shaders
 game/steampal/bin
 game/steampal/cfg
 game/steampal/maps
