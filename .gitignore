@@ -1,9 +1,7 @@
 game/steampal/bin
-game/steampal/resource
-game/steampal/panorama
-game/steampal/maps
 game/steampal/cfg
-game/steampal/
+game/steampal/maps
+game/steampal/panorama
 
 # Files
 
