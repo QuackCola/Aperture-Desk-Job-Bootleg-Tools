@@ -4,7 +4,6 @@ function modifyCameraSettings()
     Msg( "Changing Camera Settings!\n" )
     print( "Changing Camera Settings!\n" )
     LocalPlayer = player
-    EntityTarget = steampal_toilet_test_panel
 
 
     if LocalPlayer == nil then
