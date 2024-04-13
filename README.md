@@ -1,3 +1,3 @@
 # Aperture-Desk-Job-Bootleg-Tools
 
-TODO : Fill this out
+pretty much dota 2 tools configured to work with deskjob
