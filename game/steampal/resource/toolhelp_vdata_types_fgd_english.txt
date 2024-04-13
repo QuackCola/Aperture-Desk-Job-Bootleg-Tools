@@ -1,0 +1,9 @@
+﻿"lang"
+{
+	"Tokens"
+	{
+		"Attribute.CBaseNPCAbilityVData.m_nPriority:name_ref"		"Priority"
+		"Attribute.CBaseNPCAbilityVData.m_nPriority:help_ref"		"Priority relative to other abilities on this NPC. All abilities will be evaluated, and the highest priority one that passes its evaluation step will be used."
+		"Attribute.CBaseNPCAbilityVData.m_nPriority:help"		"Priority relative to other abilities on this NPC. All abilities will be evaluated, and the highest priority one that passes its evaluation step will be used."
+	}
+}
