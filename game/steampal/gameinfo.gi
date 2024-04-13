@@ -13,12 +13,9 @@
 		SearchPaths
 		{
 			Game                steampal
-			Game                steampal_addon
 			Game                core
 			Mod                 steampal
-			Mod                 steampal_addon
 			Write               steampal
-			Write               steampal_addon
 		}
 	}
 
