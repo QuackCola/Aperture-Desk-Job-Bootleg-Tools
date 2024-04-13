@@ -1,0 +1,93 @@
+//===================== Copyright (c) Valve Corporation. All Rights Reserved. ======================
+//
+// Extra SteamPal ents
+//
+//==================================================================================================
+
+@EntityGroup "Steampal"
+
+@PointClass base(Targetname, Parentname, EnableDisable, ResponseContext) tags( Info, VisPreview ) box_world_aligned( box_mins, box_maxs, autoCenter ) = steampal_kill_volume
+[
+	box_mins(vector) : "Box Mins" : "-64 -64 -64"
+	box_maxs(vector) : "Box Maxs" : "64 64 64"
+	
+	// Inputs
+	input KillContainedEntities(boolean)
+	input Use(boolean)
+	input SetDamageFilter(string) : "Sets the entity to use as damage filter. Pass in an empty string to clear the damage filter."
+	input EnableDamageForces(void) : "Damaging the entity applies physics forces to it."
+	input DisableDamageForces(void) : "Damaging the entity does *not* apply physics forces to it."
+	input DispatchResponse(void)
+	input AddAttribute(string) : "Add an attribute with a value of 1."
+	input RemoveAttribute(string) : "Remove an attribute."
+]
+
+@OverrideClass
+	metadata
+	{
+		entity_tool_name = "Kill Volume"
+		entity_tool_tip = ""
+		entity_tool_group = "Steampal"
+	}
+= steampal_kill_volume
+[
+]
+
+@PointClass base(Targetname, Parentname, EnableDisable, ResponseContext) tags( Info, VisPreview ) = steampal_conveyor_entity_spawner
+[
+	SawnAlongConveyorOnStartup(boolean)
+	ProbabilityToSpawnAlongConveyor(float)
+	AutoSpawnEntities(boolean)
+	ProbabilityToAutoSpawn(float)
+]
+
+@OverrideClass
+	metadata
+	{
+		entity_tool_name = "Conveyor Entity Spawner"
+		entity_tool_tip = ""
+		entity_tool_group = "Steampal"
+	}
+= steampal_conveyor_entity_spawner
+[
+]
+
+
+@PointClass base(BasePropPhysics, RenderFields) model() sphere(fademindist) sphere(fademaxdist) tags( PropPhysics )  = steampal_toilet_test_panel
+[
+	//CisternDiagramLight(target_destination)
+	//FlushDiagramLight(target_destination)
+	//SeatPressureDiagramLight(target_destination)
+	//BidetDiagramLight(target_destination)
+	//CisternTestLight(target_destination)
+	//FlushTestLight(target_destination)
+	//SeatPressureTestLight(target_destination)
+	//BidetTestLight(target_destination)
+	//CisternGauge(target_destination)
+	//FlushGauge(target_destination)
+	//SeatPressureGauge(target_destination)
+	//BidetGauge(target_destination)
+	//CisternFunctionLight(target_destination)
+	//BidetFunctionLight(target_destination)
+	//FlushFunctionLight(target_destination)
+	//SeatPressureFunctionLight(target_destination)
+	//PassFailLight(target_destination)
+	//Digit0(target_destination)
+	//Digit1(target_destination)
+	//Digit2(target_destination)
+	//Digit3(target_destination)
+	//Digit4(target_destination)
+	//Digit5(target_destination)
+	//CounterValue(target_destination)
+]
+
+@OverrideClass
+	metadata
+	{
+		entity_tool_name = "Toilet Test Panel"
+		entity_tool_tip = ""
+		entity_tool_group = "Steampal"
+	}
+= steampal_toilet_test_panel
+[
+]
