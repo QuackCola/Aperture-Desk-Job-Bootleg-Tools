@@ -49,6 +49,7 @@ shaders_vulkan*
 thirdpartylegalnotices.txt
 vr_fidelity_levels.csv
 stringtokendatabase.txt
+*.mdmp
 game/_toolsettings/asset_browser/settings.txt
 game/core/tools_asset_info.bin
 game/steampal/tools_asset_info.bin
