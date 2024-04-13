@@ -13,6 +13,7 @@
 		SearchPaths
 		{
 			Game                steampal
+			Game				testbed
 			Game                core
 			Mod                 steampal
 			Write               steampal
