@@ -16,7 +16,6 @@
 			Game                testbed
 			Mod					testbed
 			Write				testbed
-			DEFAULT_WRITE_PATH  testbed
 			Game                core
 		}
 	}
