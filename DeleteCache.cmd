@@ -61,7 +61,7 @@ exit /b
 :DEL_DIR
     :: Let the user know the specified directory dosent exist, and if it dosent exist then exit the subroutine.
     if not exist %1 ( 
-     echo %1 doent Exist, Skipping...
+     echo %1 dosent Exist, Skipping...
      goto:eof
     )
 
@@ -74,7 +74,7 @@ exit /b
 :DEL_FILE
     :: Let the user know the specified file dosent exist, then exit the subroutine.
     if not exist %1 ( 
-     echo %1 doent Exist, Skipping...
+     echo %1 dosent Exist, Skipping...
      goto:eof
     )
 
