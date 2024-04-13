@@ -17,8 +17,8 @@
 			Game                core
 			Mod                 steampal
 			Mod					testbed
-			Write				testbed
 			Write               steampal
+			Write				testbed
 		}
 	}
 
