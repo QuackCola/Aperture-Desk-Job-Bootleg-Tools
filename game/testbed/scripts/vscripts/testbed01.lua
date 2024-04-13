@@ -1,14 +1,14 @@
-local player = nil
+local localplayer = nil
 local target = nil
 
 function teleportPlayer()
     -- get a handle to the player object
-    player = Entities:GetLocalPlayer()
+    localplayer = Entities:GetLocalPlayer()
     -- Move The Player to a 'point_teleport' with the target name 'teleport_location'
     teleportLocation = Entities:FindByName(nil,"teleport_location")
     local pos = teleportLocation:GetOrigin()
 
-    player:SetOrigin(pos)
+    localplayer:SetOrigin(pos)
 end
 
 
