@@ -13,10 +13,11 @@
 	{
 		SearchPaths
 		{
-			Game				steampal
-			Game                testbed
-			Game				core
-			
+			Game					steampal
+			Game					core 
+			Mod 					steampal
+			Game					testbed
+			Mod 					testbed
 		}
 	}
 

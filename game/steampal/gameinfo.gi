@@ -12,8 +12,8 @@
 	{
 		SearchPaths
 		{
-			Game                steampal
 			Game				testbed
+			Game                steampal
 			Game                core
 			Mod                 steampal
 			Mod					testbed
