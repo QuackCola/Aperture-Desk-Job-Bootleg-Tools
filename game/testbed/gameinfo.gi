@@ -1,11 +1,9 @@
 "GameInfo"
 {
-	game 		"Testbed"
-	title 		"Testbed"
-	type		singleplayer_only
+	game 		"Aperture Testbed"
+	title 		"Aperture Testbed"
 
 	GameData	"steampal.fgd"
-	StartupMap	"aperture_desk_job"
 
 	tonemapping 1 // Show tonemapping ui in tools mode
 
@@ -13,12 +11,16 @@
 	{
 		SearchPaths
 		{
-			Game					steampal
-			Game					core 
-			Mod 					steampal
-			Game					testbed
-			Mod 					testbed
+			Game                steampal
+			Game				testbed
+			Game                core
+			Mod                 steampal
+			Mod					testbed
+			Write               steampal
+			AddonRoot			addons
 		}
+		
+		AddonsChangeDefaultWritePath 0
 	}
 
 	RenderPipelineAliases
