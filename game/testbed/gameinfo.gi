@@ -1,7 +1,7 @@
 "GameInfo"
 {
-	game 		"Aperture Desk Job Bootleg Tools"
-	title 		"Aperture Desk Job Bootleg Tools"
+	game 		"Testbed"
+	title 		"Testbed"
 	type		singleplayer_only
 
 	GameData	"steampal.fgd"
@@ -14,9 +14,9 @@
 		SearchPaths
 		{
 			Game                testbed
-			Mod					testbed
-			Write				testbed
-			Game                core
+			Game				core
+			Game				steampal
+			
 		}
 	}
 
