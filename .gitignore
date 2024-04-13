@@ -58,8 +58,11 @@ stringtokendatabase.txt
 *.mdmp
 game/_toolsettings/asset_browser/settings.txt
 game/core/tools_asset_info.bin
+game/core/readonly_tools_asset_info.bin
 game/steampal/tools_asset_info.bin
+game/steampal/readonly_tools_asset_info.bin
 game/steampal/tools_thumbnail_cache.bin
 game/testbed/tools_asset_info.bin
+game/testbed/readonly_tools_asset_info.bin
 game/testbed/tools_thumbnail_cache.bin
 *.i64
