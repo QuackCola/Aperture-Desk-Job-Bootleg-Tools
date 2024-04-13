@@ -18,7 +18,13 @@
 			Mod                 steampal
 			Mod					testbed
 			Write               steampal
+			AddonRoot			testbed_addons
+			
+			PublicContent		steampal
+			PublicContent		core
 		}
+		
+		AddonsChangeDefaultWritePath 0
 	}
 
 	RenderPipelineAliases
