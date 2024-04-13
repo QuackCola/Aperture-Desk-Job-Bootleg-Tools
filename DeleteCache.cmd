@@ -24,7 +24,7 @@ TASKKILL /f /im "deskjob.exe" >NUL 2>&1
 
 :: Delete generated data & other files that didnt come with the base game from steam.
 
-
+CALL :DEL_DIR  ".\content\_toolsautosave"
 CALL :DEL_DIR  ".\content\testbed\_bakeresourcecache"
 CALL :DEL_DIR  ".\game\_toolsettings"
 CALL :DEL_DIR  ".\game\steampal\_bakeresourcecache"
