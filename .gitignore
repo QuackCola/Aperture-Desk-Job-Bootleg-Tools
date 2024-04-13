@@ -61,3 +61,4 @@ game/steampal/tools_asset_info.bin
 game/steampal/tools_thumbnail_cache.bin
 game/testbed/tools_asset_info.bin
 game/testbed/tools_thumbnail_cache.bin
+*.i64
