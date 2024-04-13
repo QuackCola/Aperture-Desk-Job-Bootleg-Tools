@@ -36,6 +36,7 @@
 			[
 				"dota",
 				"steampal",
+				"testbed",
 			]
 		},
 		{
@@ -52,6 +53,7 @@
 			[
 				"dota",
 				"steampal",
+				"testbed",
 			]
 		},
 		{
@@ -90,6 +92,7 @@
 			m_ExcludeFromMods = 
 			[
 				"steampal",
+				"testbed",
 			]	
 		},
 		{
@@ -125,6 +128,7 @@
 				"dota",
 				"hlvr",
 				"csgo",
+				"steampal",
 			]
 		},
 	]

@@ -1,2 +1,2 @@
 @echo off
-game\bin\win64\deskjob.exe -game testbed -noassert -console
+game\bin\win64\deskjob-testbed.exe -game testbed -noassert -console

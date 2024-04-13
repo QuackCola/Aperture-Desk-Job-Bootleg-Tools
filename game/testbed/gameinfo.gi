@@ -1,9 +1,8 @@
 "GameInfo"
 {
-	game 		"Aperture Testbed"
-	title 		"Aperture Testbed"
-
-	GameData	"steampal.fgd"
+	game 		"Aperture Deskjob Bootleg Testbed"
+	title 		"Aperture Deskjob Bootleg Testbed"
+	GameData	"fgd/steampal.fgd"
 
 	tonemapping 1 // Show tonemapping ui in tools mode
 
@@ -11,11 +10,11 @@
 	{
 		SearchPaths
 		{
-			Game                steampal
 			Game				testbed
+			Game                steampal
 			Game                core
-			Mod                 steampal
 			Mod					testbed
+			Mod                 steampal
 			Write               steampal
 			AddonRoot			addons
 		}

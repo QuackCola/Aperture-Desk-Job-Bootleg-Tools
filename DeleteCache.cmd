@@ -59,7 +59,7 @@ exit /b
 :: Subroutines defined below
 
 :DEL_DIR
-    :: Let the user know the specified directory dosent exist, then exit the subroutine.
+    :: Let the user know the specified directory dosent exist, and if it dosent exist then exit the subroutine.
     if not exist %1 ( 
      echo %1 doent Exist, Skipping...
      goto:eof

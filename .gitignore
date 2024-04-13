@@ -43,6 +43,7 @@ game/steampal/shaders
 content/_toolsautosave
 content/testbed/maps/tests
 game/testbed/_bakeresourcecache
+game/testbed/cfg
 game/testbed/maps
 game/testbed/maps/tests
 
