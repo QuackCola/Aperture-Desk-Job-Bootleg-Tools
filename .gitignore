@@ -39,7 +39,9 @@ game/steampal/surfaceproperties
 game/steampal/textures
 game/steampal/thelab
 game/steampal/shaders
+content/_toolsautosave
 content/testbed/maps/tests
+game/testbed/maps
 game/testbed/maps/tests
 
 # Files
