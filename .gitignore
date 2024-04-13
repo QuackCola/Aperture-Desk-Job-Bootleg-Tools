@@ -13,6 +13,7 @@ game/core/surfaceproperties
 game/core/textures
 game/core/vgui
 game/core/shaders
+game/steampal/_bakeresourcecache
 game/steampal/bin
 game/steampal/cfg
 game/steampal/lighting
@@ -45,3 +46,8 @@ shaders_vulkan*
 thirdpartylegalnotices.txt
 vr_fidelity_levels.csv
 stringtokendatabase.txt
+game/_toolsettings/asset_browser/settings.txt
+game/core/tools_asset_info.bin
+game/steampal/tools_asset_info.bin
+game/steampal/tools_thumbnail_cache.bin
+game/testbed/tools_asset_info.bin
