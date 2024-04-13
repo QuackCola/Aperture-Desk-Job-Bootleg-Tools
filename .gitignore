@@ -1,7 +1,38 @@
+game/core/animgraphs
+game/core/dev
+game/core/materials
+game/core/models
+game/core/panorama
+game/core/particles
+game/core/resourcemanifests
+game/core/scripts
+game/core/soundevents
+game/core/sounds
+game/core/soundstacks
+game/core/surfaceproperties
+game/core/textures
+game/core/vgui
 game/steampal/bin
 game/steampal/cfg
 game/steampal/maps
 game/steampal/panorama
+game/steampal/animgraphs
+game/steampal/aperture
+game/steampal/cameras
+game/steampal/cfg
+game/steampal/materials
+game/steampal/models
+game/steampal/particles
+game/steampal/scenes
+game/steampal/scripts
+game/steampal/soundevents
+game/steampal/sounds
+game/steampal/soundstacks
+game/steampal/surfaceproperties
+game/steampal/textures
+game/steampal/thelab
+game/steampal/shaders
+
 
 # Files
 
@@ -9,3 +40,5 @@ pak01*
 shaders_pc*
 shaders_vulkan*
 thirdpartylegalnotices.txt
+vr_fidelity_levels.csv
+stringtokendatabase.txt
